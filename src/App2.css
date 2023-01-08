@@ -1,0 +1,131 @@
+body
+{
+    margin:0;
+    padding:0;
+   
+}
+
+/* .container
+{
+
+    background-color: rgba(255, 255, 255, .4); 
+    padding:25px 30px;
+    margin-top: 150px;
+    margin-left: 500px;
+    width: 600px;
+    line-height: 300%;
+   
+}
+.container .title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 25px;
+   font-weight:bold;
+   position: relative;
+} */
+.grid-container
+{
+   height:700px;
+   display:grid;
+   grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.menu
+{
+ grid-row:1/7;
+ border-right: 3px solid rgb(243, 123, 197) ;
+}
+.message
+{
+    grid-column: 2/7;
+    grid-row:1/2;
+}
+.courses
+{
+    grid-row:2/7;
+    grid-column: 2/7;
+}
+.notification
+{
+   position: relative;
+   
+    background-color: rgb(255, 192, 203);
+    border: 3px solid rgb(243, 123, 197) ;
+
+}
+.menu,.message,.courses
+{
+ 
+    background-color: rgb(255, 192, 203);
+    
+ 
+}
+.message h1 
+{
+  padding-left: 505px;
+}
+
+
+#password
+{
+    height: 30px;
+    border: none;
+}
+.coursecontainer
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(247, 120, 126);
+    border : 5px ridge rgb(243, 123, 197);
+    width: 200px;
+    height : 250px;
+    margin-left: 50px;
+    margin-bottom: 130px;
+}
+.coursemessage
+{
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.courses
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.Drop
+{
+    background-color: red;
+}
+.menu
+{
+    display: flex;
+    flex-direction: column;
+}
+.spanlist
+{
+    padding-left: 15px;
+}
+.add
+{
+    background-color: rgb(32, 190, 32);
+}
+#close
+{
+    float:right;
+}
+#notxt 
+{
+    padding:50px;
+    font-size: 30px;
+}
+.notadd
+{
+    float:right;
+    margin-top:25px;
+    padding-left:20px;
+}
